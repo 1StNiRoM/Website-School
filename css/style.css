@@ -3,7 +3,7 @@
   --lightBlue: #A3CEF1;
   --blue: #6096BA;
   --darkBlue: #274C77;
-  --lightGrey: #8B8C89;
+  --lightGrey: #c8c9c6;
   --grey: #565754;
   --black: #0e0e2f;
 }
@@ -34,7 +34,8 @@ body {
   color: var(--grey);
   text-align: center;
   padding: 20px;
-  padding-right: 22px;
+  padding-right: 40px;
+  padding-left: 0px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -79,4 +80,28 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+hr.rounded {
+  border-color: var(--blue);
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.text {
+  float: right;
+  width: 45%;
+  background-color: var(--lightGrey);
+  padding: 20px;
+  border-radius: 25px;
+  margin: 2.5%;
+}
+
+.link {
+  color: var(--darkBlue);
+}
+
+.image img {
+  width: 40%;
+  float: right;
 }
